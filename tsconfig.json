@@ -4,6 +4,7 @@
     "lib": ["dom", "dom.Iterable", "esnext"],
     "esModuleInterop": true,
     "module": "esnext",
+    "moduleResolution": "node",
     "jsx": "react",
     "rootDir": "src",
     "baseUrl": "src",
@@ -14,6 +15,7 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "noFallthroughCasesInSwitch": true,
     "noEmit": true
   },
   "include": ["src"]
